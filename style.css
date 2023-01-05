@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+   font-family:Arial, Helvetica, sans-serif ;
+}
+
+.bg-desktop-light{
+width: 104%;
+}
+
+.Todo{
+position: absolute;
+margin-top: -15%;
+margin-left: 50%;
+font-size: 300%;
+color: aliceblue;
+
+}
+
+.div_tasks{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 30%;
+
+}
+
+
+
+.add_item{
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 42%; 
+    color: black;
+
+    border: none;
+    border-radius: 0.5%;
+    background-color: white;
+    width:20% ;
+    height: 50px;
+    cursor: pointer;
+}
+
+.checkbox{
+   position: relative;
+   /* margin-bottom: 70%; */
+   /* margin-left: 0%; */
+   border-radius: 5%;
+   width: 10px;
+   height: 10px;
+}
+
+.ul_tasks{
+    position: relative;
+    margin-top: -40%;
+    margin-left: 20%;
+    /* background-color: rgb(58, 10, 251);  */
+    width: 10%;
+    height: 60%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.element {
+    height: 30px;
+    width: 300px;
+    border-radius: 5%;
+   border-style: none;
+   position: relative;
+   margin-left: -15%;
+   margin-bottom: -0.6%;
+   background-color:white;
+   padding: 20px;
+   cursor: pointer;
+   border-top: 4px solid #e5e5e5;
+   border-left:4px solid  #e5e5e5;
+
+   border-bottom: 4px solid #e5e5e5;
+   border-right:4px solid  #e5e5e5;
+}
+.ul_tasks li.completed{
+     color: #000;
+     text-decoration: line-through;
+}
+
+small{
+    margin-top: 3rem;
+    margin-left: 70%;
+    font: size 1px; ;
+    /* position: relative; */
+    /* background-color: rgb(18, 18, 18);*/
+    border-style: solid;
+    /* width: 20%; */
+    text-align: center;
+    color: rgb(9, 17, 240)
+    
+    
+}
+
+
+
